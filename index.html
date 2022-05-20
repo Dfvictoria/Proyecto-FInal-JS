@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS Nutrition - Dieta, Fitness, Salud - Tienda Online y Servicios</title>
+    <meta name="keywords" content="Nutrición Entrenamiento Tienda Suplementos Ropa Deportiva"> 
+    <meta name="description" content="Productos y Servicios para estilos de vida saludables. Nutrición, suplementos y entrenamiento, equipamiento y ropa deportiva.">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <script src = 'newsletter.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Fuentes -->
+
+    <!-- General -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <body> 
+      
+    <!-- Navbar -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+                <img src="./Multimedia/GS.png" alt="logo" width="62" height="58">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://dfvictoria.github.io/GS-Nutrition/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Training.html">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Descubrinos.html">Descubrinos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Miembros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item nav-link text-left" href="./pages/Miembros.html">Iniciar Sesión</a></li>
+                  <li><a class="dropdown-item nav-link text-left" href="./pages/Registro.html">Registro</a></li>
+                </ul>
+              </li>
+            </ul>
+             <!-- Barra de busqueda -->                   
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="productos y servicios" aria-label="Search">
+              <!-- Boton busqueda -->
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+    </header>
+  
+
+    <!-- Carousel -->
+
+    <section>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video src="./Multimedia/Video-Home-1.mp4" autoplay loop muted class="d-block w-100" alt="barraproteina">
+            <div class="carousel-caption d-none d-md-block text-white">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./Multimedia/Video-Home2.mp4" autoplay loop muted class="d-block w-100" alt="proteina">
+            <div class="carousel-caption d-none d-md-block text-white">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      </section>     
+
+    <!-- Titular -->
+
+      <section>
+        <div class="container-fluid text-center bg-light">
+          <p id="titular-index">| ENERGIA PARA CONTINUAR |</p> 
+          <p id="titular-index">| ENTRENAMIENTO PARA MEJORAR |</p>
+          <p id="GS-index-titular">GS PARA ACOMPAÑAR</p> 
+        </div>
+      </section>  
+
+    <!-- Logo -->
+
+      <section>
+        <div class="container-fluid text-center">
+          <img id="logo-index" src="./Multimedia/GS.png" alt="logo-GS">
+        </div>
+      </section> 
+
+    <!-- Categorias -->
+
+      <section>
+        <div id="categorias" class="container-fluid text-center w-90">
+          <br>
+          <div class="row slideanim">
+            <div class="col-sm-4">
+              <span class="logo-small"></span>
+              <a href="./pages/Shop.html"><img id="vitaminas-index" class="img-index" id="col1-index" src="./Multimedia/vitaminas-index.jpg" alt="suplementos"></a>
+              <h4 class="texto-index">SUPLEMENTOS</h4>            
+            </div>
+            <div class="col-sm-4">
+              <a href="./pages/Shop.html"><img class="img-index" src="./Multimedia/zapatillas-index.png" alt="zapatillas"></a>
+              <h4 class="texto-index">WEAR</h4>            
+            </div>
+            <div class="col-sm-3">
+              <a href="./pages/Shop.html"><img class="img-index" id="img-index2" src="./Multimedia/reloj-index.png" alt="reloj"></a>
+              <h4 class="texto-index" id="texto-index2">TECNOLOGIA</h4>            
+            </div>
+          </div>
+          </div>
+        </div> 
+      </section>     
+        
+  <footer class="bg-white" id="footer">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div id="img-footer" class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <a href="#top"><img src="./Multimedia/GS.png" alt="" width="180" class="mb-3"></a>            
+            <ul class="list-inline mt-4 display inline">
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Seguinos</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"> <a href="https://www.facebook.com"><img class="img-fluid" id="icon-social" src="./Multimedia/Iconos/facebook.png" alt="Facebook-logo"></a></li>
+              <li class="mb-2"> <a href="https://www.instagram.com"><img class="img-fluid" id="icon-social" src="./Multimedia/Iconos/instagram.png" alt="Instagram-logo"></a></li>
+              <li class="mb-2"> <a href="https://www.youtube.com"><img class="img-fluid" id="icon-social" src="./Multimedia/Iconos/youtube.png" alt="Youtube-logo"></a></li>
+              <li class="mb-2"> <a href="https://www.whatsapp.com"><img class="img-fluid" id="icon-social" src="./Multimedia/Iconos/whatsapp.png" alt="Whatsapp-logo"></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Links</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="https://www.youtube.com/watch?v=QQkpHI9qv0A" class="text-muted">Entrenamientos</a></li>
+              <li class="mb-2"><a href="https://www.argentina.gob.ar/salud/alimentacion-saludable/recetas" class="text-muted">Recetas</a></li>
+              <li class="mb-2"><a href="https://www.runtastic.com/blog/es/8-consejos-para-recuperarse/" class="text-muted">Salud</a></li>
+              <li class="mb-2"><a href="https://www.google.com/maps/place/Buenos+Aires,+Argentina/data=!4m2!3m1!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87?sa=X&ved=2ahUKEwj0o_vciInzAhXfCTQIHSx7AJoQ8gF6BAgWEAE" class="text-muted">Sucursales</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+            <p class="text-muted mb-4">Suscribite para enterarte de las novedades y recibir descuentos exclusivos.</p>
+            <div class="p-1 rounded border">
+              <div class="input-group">
+                <input id="emailNewsletter" type="email" placeholder="Ingresá tu correo electrónico" aria-describedby="button-addon1" class="form-control border-0 shadow-0 text-center">
+                <div class="input-group-append">
+                  <button id="boton-enviar" class="btn btn-link"><i class="img-fluid"><img src="./Multimedia/Iconos/enviar.png" id="enviar" alt="boton-enviar"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </footer>
+       
+  </body>
+  
+</html>
