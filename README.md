@@ -40,4 +40,4 @@ La barra de navegación mantiene un color prácticamente transparente para una l
 
 [David Victoria](https://twitter.com/FlorealV) - df.victoria@outlook.com
 
-Proyecto: https://dfvictoria.github.io/GS-Nutrition/
+Proyecto: [https://dfvictoria.github.io/Proyecto-Final-JS/]
