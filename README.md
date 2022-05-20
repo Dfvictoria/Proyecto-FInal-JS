@@ -5,7 +5,7 @@
 <!-- SOBRE -->
 ## Acerca del proyecto
 
-![ScreenShot](./Multimedia/readme.PNG)
+![ScreenShot](./Multimedia/readme.png)
 
 <!-- DESCRIPCION -->
 Gold Standard Nutrition o **GS Nutrition** es una empresa ficticia que ofrece productos y servicios relacionados a la salud, deporte y recuperación física tales como `suplementos`, `vitaminas`, `comidas y bebidas`, `ropa deportiva`, `pesas y equipamiento de gym`y `entrenamiento personalizado/grupal`.
